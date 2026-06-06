@@ -308,14 +308,14 @@ Three signoff checks were run after routing. All passed with zero violations.
 ```
 VERIFY DRC ...... Verification Complete
 Sub-Area: {0.000 0.000 83.600 82.080} 1 of 1
-Result: 0 Violations  ✅
+Result: 0 Violations  
 ```
 
 #### PG Short — `verify_PG_short`
 
 ```
 VERIFY PG SHORT ...... Short: 0 Viols.
-Verification Complete: 0 Short Viols.  ✅
+Verification Complete: 0 Short Viols.  
 ```
 
 #### Connectivity — `verifyConnectivity`
@@ -324,16 +324,16 @@ Verification Complete: 0 Short Viols.  ✅
 Begin Summary
   Found no problems or warnings.
 End Summary
-Verification Complete: 0 Viols. 0 Wrngs.  ✅
+Verification Complete: 0 Viols. 0 Wrngs.  
 ```
 
 #### Verification Summary
 
 | Check        | Command              | Result     |
 |--------------|----------------------|------------|
-| DRC          | verify_drc           | 0 violations ✅ |
-| PG Shorts    | verify_PG_short      | 0 violations ✅ |
-| Connectivity | verifyConnectivity   | 0 violations ✅ |
+| DRC          | verify_drc           | 0 violations |
+| PG Shorts    | verify_PG_short      | 0 violations |
+| Connectivity | verifyConnectivity   | 0 violations |
 
 ---
 
@@ -349,38 +349,6 @@ Following successful physical verification and timing closure, the final layout 
 | Database units | 2000                           |
 | Die dimensions | 83.6 µm × 82.08 µm             |
 
----
-
-## Repository Structure
-
-```
-rtl-to-gdsii-cadence-innovus/
-├── README.md
-├── scripts/
-│   ├── floorplan_new.tcl          # Floorplan and I/O pin constraints
-│   ├── placement.tcl              # Placement execution and pre-CTS reports
-│   ├── cts.tcl                    # CTS spec and buffer constraints
-│   └── route.tcl                  # Routing execution and DRV cleanup
-├── reports/
-│   ├── placement/
-│   │   ├── preCTS.summary.gz      # Pre-CTS timing summary
-│   │   ├── preCTS.fanout.gz       # Fanout violations report
-│   │   └── preCTS_reg2reg.tarpt.gz # Reg-to-reg critical paths
-│   ├── latency.txt                # Clock latency report (post-CTS)
-│   └── skew.txt                   # Clock skew report (post-CTS)
-└── screenshots/
-    ├── 01_floorplan_powerplan.png
-    ├── 02_placement_global.png
-    ├── 03_placement_zoomed.png
-    ├── 04_post_cts_layout.png
-    ├── 05_clock_tree_debugger.png
-    ├── 06_routed_layout_global.png
-    ├── 07_routed_layout_zoomed.png
-    ├── 08_drc_pg_connectivity.png
-    └── 09_gdsii_output.png
-```
-
----
 
 ## Screenshots
 
