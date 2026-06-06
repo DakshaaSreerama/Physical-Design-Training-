@@ -42,20 +42,20 @@ The objective was to achieve **timing closure with zero violations** while maint
 
 ## Final Results at a Glance
 
-| Metric                    | Value            | Status |
-|---------------------------|------------------|--------|
-| WNS (setup, all modes)    | 0.927 ns         | ✅ PASS |
-| TNS                       | 0.000 ns         | ✅ PASS |
-| Violating paths           | 0                | ✅ PASS |
-| Hold violations           | 0                | ✅ PASS |
-| Clock skew                | 0.015 ns         | ✅ PASS |
-| Max clock latency         | 0.179 ns         | ✅ PASS |
-| DRC violations            | 0                | ✅ PASS |
-| PG short violations       | 0                | ✅ PASS |
-| Connectivity violations   | 0                | ✅ PASS |
-| Routing overflow          | 0.00% H, 0.00% V | ✅ PASS |
-| Max transition            | 0.280 ns         | ✅ PASS |
-| Final cell density        | 61.335%          |        |
+| Metric                    | Value            | Status|
+|---------------------------|------------------|------|
+| WNS (setup, all modes)    | 0.927 ns         | PASS |
+| TNS                       | 0.000 ns         | PASS |
+| Violating paths           | 0                | PASS |
+| Hold violations           | 0                | PASS |
+| Clock skew                | 0.015 ns         | PASS |
+| Max clock latency         | 0.179 ns         | PASS |
+| DRC violations            | 0                | PASS |
+| PG short violations       | 0                | PASS |
+| Connectivity violations   | 0                | PASS |
+| Routing overflow          | 0.00% H, 0.00% V | PASS |
+| Max transition            | 0.280 ns         | PASS |
+| Final cell density        | 61.335%          |      |
 
 ---
 
