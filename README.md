@@ -360,42 +360,33 @@ Core area defined with power rings and stripes. Blue horizontal lines are routin
 ### Placement — Global View
 Standard cells placed across the core. Density: 53.25%. Zero routing overflow.
 
-![Placement Global](screenshots/02_placement_global.png)
+![Placement Global](screenshots/placement.png)
 
 ### Placement — Zoomed
 Individual standard cell instances: `mem_reg`, `rdata_o_reg`, combinational logic cells.
 
-![Placement Zoomed](screenshots/03_placement_zoomed.png)
+![Placement Zoomed](screenshots/03_placed_blocks.png)
 
-### Post-CTS Layout
-Clock buffer instances (`CTS_ccl_a_buf_*`) inserted by Innovus visible across the core.
-
-![Post-CTS](screenshots/04_post_cts_layout.png)
 
 ### Clock Tree Debugger
 Balanced two-level clock tree. Root buffer fans out to all leaf flip-flops. Skew: 0.015 ns.
 
-![Clock Tree](screenshots/05_clock_tree_debugger.png)
+![Clock Tree](screenshots/CTS.png)
 
 ### Routed Layout — Global
 Fully routed design. All six metal layers (M1–M6) and via layers (Via1–Via5) visible.
 
-![Routed Global](screenshots/06_routed_layout_global.png)
+![Routed Global](screenshots/route.png)
 
 ### Routed Layout — Zoomed
 Detailed routing showing M1 horizontal routes and M2 vertical routes with via connections.
 
-![Routed Zoomed](screenshots/07_routed_layout_zoomed.png)
-
-### Physical Verification — Clean
-`verify_drc`: 0 violations | `verify_PG_short`: 0 shorts | `verifyConnectivity`: 0 violations.
-
-![Verification](screenshots/08_drc_pg_connectivity.png)
+![Routed Zoomed](screenshots/routing_zoomed.png)
 
 ### GDSII Output
 `final.gds` generated in `~/dakshaa/pnr/outputs/`. Binary GDSII stream containing full layout geometry.
 
-![GDSII](screenshots/09_gdsii_output.png)
+![GDSII](screenshots/09_gdsii.png)
 
 ---
 
