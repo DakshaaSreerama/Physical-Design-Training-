@@ -355,7 +355,7 @@ Following successful physical verification and timing closure, the final layout 
 ### Floorplan + Power Plan
 Core area defined with power rings and stripes. Blue horizontal lines are routing tracks; orange boundary is the power ring.
 
-![Floorplan](screenshots/01_floorplan_powerplan.png)
+![Floorplan](screenshots/power_planning_grid.png)
 
 ### Placement — Global View
 Standard cells placed across the core. Density: 53.25%. Zero routing overflow.
