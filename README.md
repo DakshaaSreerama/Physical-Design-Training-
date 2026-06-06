@@ -365,7 +365,7 @@ Standard cells placed across the core. Density: 53.25%. Zero routing overflow.
 ### Placement — Zoomed
 Individual standard cell instances: `mem_reg`, `rdata_o_reg`, combinational logic cells.
 
-![Placement Zoomed](screenshots/03_placed_blocks.png)
+![Placement Zoomed](screenshots/placed_blocks.png)
 
 
 ### Clock Tree Debugger
@@ -386,7 +386,7 @@ Detailed routing showing M1 horizontal routes and M2 vertical routes with via co
 ### GDSII Output
 `final.gds` generated in `~/dakshaa/pnr/outputs/`. Binary GDSII stream containing full layout geometry.
 
-![GDSII](screenshots/09_gdsii.png)
+![GDSII](screenshots/gdsii.png)
 
 ---
 
